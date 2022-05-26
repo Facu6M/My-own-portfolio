@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Mukta&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Koulen&family=Mukta&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300&family=BIZ+UDPGothic:wght@700&family=Inconsolata&family=Koulen&family=Mukta&display=swap');
+
+body {
+margin: 0px;
+background-color: darkred;
+    box-shadow: 0 2px 0 rgb(0 0 0 / 40%);
+}
+
+
+#navbar {
+    display: flex;
+    justify-content: flex-end;
+     position: fixed;
+     top: 0;
+    left: 0;
+     width: 100%;
+     background:darkred;
+}
+
+
+.nav-list {
+   display: flex;
+   list-style: none;
+}
+
+
+ul li {
+   padding: 20px;
+
+}
+
+a{
+   font-size: 25px;
+     color: black;
+   text-decoration: none;
+}
+
+#welcome-section {
+display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #0F1612;
+    background-image: linear-gradient(162deg, #0F1612 0%, #181719 100%);
+}
+
+h1{
+   font-family: 'Mukta';
+ font-size: 55px;
+ color: white;
+ }
+
+h2 {
+   margin-top: -60px;
+   color: #C22512;
+   font-family: cursive;
+}
+
+
+
+
+#projects{
+ display: flex;
+ flex-direction: column;
+top: 0;
+left: 0px;
+width: 100%;
+   height: 180vh;
+   background: #0C4442;
+}
+
+h4 {
+   text-align: center;
+  font-size: 50px;
+  color: white;
+  font-family: 'inconsolata';
+}
+
+
+.project-tile{
+  display: flex;
+  flex-wrap: wrap;
+    width: 100%;
+ justify-content: center;
+
+}
+
+#cards {
+   margin: 20px;
+   height: 350px;
+   width: 350px;
+}
+
+
+h5 {
+   padding-top: 10px;
+   text-align: center;
+   font-size: 18px;
+   font-family: 'koulen';
+   margin-top: 0px;
+   height: 40px;
+   background-color: #1B3D64;
+}
+
+
+.img{
+   margin-top: -28px;
+   width: 350px;
+   height: 250px;
+}
+
+
+#button {
+   display: flex;
+   background-color: #355F92;
+   margin: 20px;
+   height: 50px;
+   width: 145px;
+   justify-content: center;
+   margin-top: -50px;
+}
+
+#p{
+   font-family: 'akshar';
+   margin-top: 10px;
+}
+
+#figure {
+    display: flex;
+     top: 0;
+    left: 0;
+     width: 100%;
+     height: 80vh;
+     margin: 0px;
+    background-color: #14213B;
+      justify-content: center;
+}
+
+h6{
+  font-size: 45px;
+  margin-left: 140px;
+
+}
+
+#link {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+ul li {
+ list-style: none;
+}
+
+
+#footer {
+   display: flex;
+   justify-content: center;
+   margin-top: 5px;
+   background-color: #14213B ;
+   height: 15vh;
+}
+
+p{
+   color: white;
+   font-size: 25px;
+   font-family: 'inconsolata';
+}
+
+
+@media screen and (max-width: 1200px) {
+
+.project-tile{
+   display: flex;
+   flex-wrap: wrap;
+   max-width: 800px;
+   justify-content: center;
+}
+
+
+
+#cards {
+   margin: 20px;
+   height: 200px;
+   width: 200px;
+}
+
+.img {
+height: 150px;
+width: 200px;
+}
+
+
+#button {
+   margin-top: -2px;
+}
+
+}
+
+@media screen and (max-width: 750px) {
+
+.project-tile{
+   display: flex;
+   flex-wrap: wrap;
+   max-width: 750px;
+   justify-content: center;
+}
+
+
+
+#cards {
+   border: 0px;
+   margin: 20px;
+   height: 150px;
+   width: 150px;
+}
+
+.img {
+   height: 100px;
+   width: 150px;
+}
+
+
+}
