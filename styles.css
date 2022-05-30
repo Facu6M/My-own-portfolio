@@ -45,8 +45,11 @@ display: flex;
     align-items: center;
     width: 100%;
     height: 100vh;
-    background-color: #0F1612;
-    background-image: linear-gradient(162deg, #0F1612 0%, #181719 100%);
+     background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgb(4, 1, 14) 75%), url('https://media.istockphoto.com/photos/dark-grey-black-slate-texture-in-natural-pattern-with-high-resolution-picture-id1154027131?b=1&k=6&m=1154027131&s=170667a&w=0&h=l4ynGmKLK6DDMAyFAu56GVAY9joID6VFxHKKPAGaSgM=');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    
 }
 
 h1{
@@ -63,7 +66,6 @@ h2 {
 
 
 
-
 #projects{
  display: flex;
  flex-direction: column;
@@ -71,7 +73,10 @@ top: 0;
 left: 0px;
 width: 100%;
    height: 180vh;
-   background: #0C4442;
+         background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.2) , rgb(4, 1, 14) 75%), url('https://www.xtrafondos.com/descargar.php?id=3593&resolucion=2560x1440');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
 }
 
 h4 {
