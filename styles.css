@@ -79,7 +79,8 @@ width: 100%;
     background-repeat: no-repeat;
     background-position: top;
 }
-img {
+
+.read-more {
  height: 100px;
  width: 300px;
 padding-top: 240px;
