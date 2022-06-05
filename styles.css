@@ -10,7 +10,27 @@ background-color: darkred;
 }
 
 
+#navbar {
+    display: flex;
+    justify-content: flex-end;
+     position: fixed;
+     top: 0;
+    left: 0;
+     width: 100%;
+     background:darkred;
+}
 
+
+.nav-list {
+   display: flex;
+   list-style: none;
+}
+
+
+ul li {
+   padding: 20px;
+
+}
 
 a{
    font-size: 25px;
@@ -58,6 +78,11 @@ width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
+}
+img {
+ height: 100px;
+ width: 300px;
+padding-top: 240px;
 }
 
 h4 {
