@@ -3,12 +3,14 @@
 const email = document.getElementById('email')
 
 email.addEventListener("click", event  => {
- alert("my email is: facu6p@gmail.com")
+ email.classList.add('email');
+ phone.classList.remove('phone');
 })
 
 
 const phone = document.getElementById('phone')
 
 phone.addEventListener("click", event  => {
- alert("my phone number is : 11-5145-1631")
+ phone.classList.add('phone')
+  email.classList.remove('email');
 })
