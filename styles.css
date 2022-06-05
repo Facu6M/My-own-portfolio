@@ -183,6 +183,33 @@ p{
    font-family: 'inconsolata';
 }
 
+#figure .email:before {
+ color: white; 
+ content: "my "
+}
+
+#figure .email {
+   color: white;
+}
+
+#figure .email:after {
+ color: white; 
+ content: "is:  facu6p@gmail.com";
+}
+
+#figure .phone:before {
+ color: white; 
+ content: "my "
+}
+
+#figure .phone {
+   color: white;
+}
+
+#figure .phone:after {
+ color: white; 
+ content: "is:  11-5145-1631";
+ }
 
 @media screen and (max-width: 1200px) {
 
