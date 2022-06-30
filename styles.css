@@ -45,7 +45,7 @@ display: flex;
     align-items: center;
     width: 100%;
     height: 100vh;
-     background-image: linear-gradient(20deg, rgba(0, 0, 0, 0.2) 0%, rgb(4, 1, 14) 100%), url('https://i.postimg.cc/SKjGgRfn/AZUL-NARANJA.png');
+     background-image: linear-gradient(20deg, rgba(0, 0, 0, 0.2) 0%, rgb(4, 1, 14) 100%), url('https://i.postimg.cc/Dzd7YffK/Azul-y-Naranja-Negocios-Simple-Presentaci-n-de-Marketing-3.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
@@ -53,6 +53,7 @@ display: flex;
 }
 
 h1{
+   margin-right: 50px;
    font-family: 'Mukta';
     font-size: 70px;
  color: white;
