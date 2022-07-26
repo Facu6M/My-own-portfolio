@@ -12,6 +12,13 @@ background-color: darkred;
 
 /* VIDEO */
 
+#skills{
+       margin-top: 150px;
+          padding: 20px;
+          height: 250px;
+          width: 200px;
+       }
+
 .promo {
    display: flex;
    position: relative;
